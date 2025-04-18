@@ -1,3 +1,22 @@
 {
-  "messages": []
+  "messages": [
+    {
+      "role": "user",
+      "content": "hi",
+      "id": "59c131e8-4bb1-4978-af78-d07dcb8bab4a",
+      "createdAt": "2025-04-18T19:04:58.652Z"
+    },
+    {
+      "role": "user",
+      "content": "My name is Jude",
+      "id": "9f5faa81-8e03-44f9-8580-92535169995b",
+      "createdAt": "2025-04-18T19:07:31.855Z"
+    },
+    {
+      "role": "user",
+      "content": "What is my name",
+      "id": "99448b4b-ce01-455f-ae28-be3ce0a56818",
+      "createdAt": "2025-04-18T19:07:45.778Z"
+    }
+  ]
 }
