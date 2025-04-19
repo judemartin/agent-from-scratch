@@ -23,6 +23,32 @@
       "content": "Nice to meet you, Scott! How can I assist you today?",
       "id": "70a9b0ae-a6ec-4523-a4dd-81ce5c27e080",
       "createdAt": "2024-11-05T17:40:29.361Z"
+    },
+    {
+      "role": "user",
+      "content": "What is the weather?",
+      "id": "90b9a856-34e9-49fd-acd5-0d395cc79d83",
+      "createdAt": "2025-04-18T23:53:48.588Z"
+    },
+    {
+      "role": "user",
+      "content": "What is the weather?",
+      "id": "553dc234-aa62-4cd9-b6e1-dd5507b85103",
+      "createdAt": "2025-04-18T23:54:21.074Z"
+    },
+    {
+      "role": "user",
+      "content": "What is the weather?",
+      "id": "0aaa7505-55d2-4ac5-84e0-135ec16e489b",
+      "createdAt": "2025-04-18T23:59:16.460Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Could you please provide me with your location or the specific area you want to know the weather for?",
+      "refusal": null,
+      "annotations": [],
+      "id": "8bd820b1-7573-4bd6-99de-c68641e6e3f5",
+      "createdAt": "2025-04-18T23:59:17.898Z"
     }
   ]
 }
