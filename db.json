@@ -2,26 +2,78 @@
   "messages": [
     {
       "role": "user",
-      "content": "how is the weather?",
-      "id": "9b6e5ffd-56da-4042-a503-d292cd79d093",
-      "createdAt": "2024-11-05T19:34:16.767Z"
+      "content": "How is the weather",
+      "id": "cc0ceb11-33e2-4f1c-a48b-bc7f388bb5fe",
+      "createdAt": "2025-04-24T04:04:38.733Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Could you please specify the location for which you would like to know the weather?",
+      "refusal": null,
+      "annotations": [],
+      "id": "96734932-f7c5-4105-99d0-c09e1f4a5fba",
+      "createdAt": "2025-04-24T04:04:40.485Z"
+    },
+    {
+      "role": "user",
+      "content": "How is the weather",
+      "id": "5e366a59-8571-4182-8fe5-21de8b1fb088",
+      "createdAt": "2025-04-24T04:05:16.455Z"
+    },
+    {
+      "role": "tool",
+      "content": "very cold. 17 deg",
+      "tool_call_id": "call_Orfg1vvxFofa3woUpC5WFrMD",
+      "id": "5a43cc71-b6dc-4a79-a395-ab84d6ef8746",
+      "createdAt": "2025-04-24T04:05:17.336Z"
     },
     {
       "role": "assistant",
       "content": null,
       "tool_calls": [
         {
-          "id": "call_Pd2L6OWnviQmRf7RicWtvE6Y",
+          "id": "call_Orfg1vvxFofa3woUpC5WFrMD",
           "type": "function",
           "function": {
-            "name": "get_stuff",
-            "arguments": "{\"reasoning\":\"To provide accurate weather information.\"}"
+            "name": "get_weather",
+            "arguments": "{\"reasoning\":\"User asked for the current weather without specifying a location, so I will retrieve the general weather information.\"}"
           }
         }
       ],
       "refusal": null,
-      "id": "7c3e8fdd-f7f8-4103-9ac4-a361671aca41",
-      "createdAt": "2024-11-05T19:34:17.996Z"
+      "annotations": [],
+      "id": "60dcb3d6-3abb-4579-8da7-39c7639d05bb",
+      "createdAt": "2025-04-24T04:05:17.337Z"
+    },
+    {
+      "role": "user",
+      "content": "Which model is this?",
+      "id": "89aa9d19-e68f-4e87-9cd8-cc3f6a44b002",
+      "createdAt": "2025-04-24T04:05:39.443Z"
+    },
+    {
+      "role": "user",
+      "content": "Which model is this?",
+      "id": "4b908e98-4d2d-4d7c-9416-ed04b704e178",
+      "createdAt": "2025-04-24T04:06:46.241Z"
+    },
+    {
+      "role": "user",
+      "content": "Which model is this?",
+      "id": "68efc461-8923-4360-acea-c0deed16e2cb",
+      "createdAt": "2025-04-24T04:07:03.715Z"
+    },
+    {
+      "role": "user",
+      "content": "What's the weather again>?",
+      "id": "95fc4cc5-be4e-4c8e-b222-f00b7332cf56",
+      "createdAt": "2025-04-24T04:09:13.343Z"
+    },
+    {
+      "role": "user",
+      "content": "What's the weather again>?",
+      "id": "d67f36ab-5b36-457a-8cd7-0f07484ccbfb",
+      "createdAt": "2025-04-24T04:11:35.466Z"
     }
   ]
 }
