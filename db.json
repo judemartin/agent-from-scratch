@@ -85,6 +85,87 @@
       "tool_call_id": "call_jbSaq6EgBFbWm3Xg5bUW0pN5",
       "id": "dc465b38-ddb2-4e60-bbd8-f1cca4727aa9",
       "createdAt": "2024-11-05T20:20:37.041Z"
+    },
+    {
+      "role": "user",
+      "content": "hi",
+      "id": "b2c43a6a-35e1-4221-9fac-3ffd97371098",
+      "createdAt": "2025-04-24T04:28:52.454Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Hello! How can I assist you today?",
+      "refusal": null,
+      "annotations": [],
+      "id": "9750537b-dc0f-41a7-bd55-dc557aa455f4",
+      "createdAt": "2025-04-24T04:28:55.159Z"
+    },
+    {
+      "role": "user",
+      "content": "hi",
+      "id": "d3063501-f9a3-45b1-a90b-e5d337b68990",
+      "createdAt": "2025-04-24T04:29:30.280Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Hi again! How can I help you?",
+      "refusal": null,
+      "annotations": [],
+      "id": "a822070a-7e00-405a-a1c8-6d1ca22aa199",
+      "createdAt": "2025-04-24T04:29:30.869Z"
+    },
+    {
+      "role": "user",
+      "content": "hi my name is jude",
+      "id": "c9e34013-0dbf-43d7-a766-c3741e698a92",
+      "createdAt": "2025-04-24T04:29:47.672Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Nice to meet you, Jude! How can I assist you today?",
+      "refusal": null,
+      "annotations": [],
+      "id": "a5b44c1f-74e8-4da9-890a-14d29624309a",
+      "createdAt": "2025-04-24T04:29:48.315Z"
+    },
+    {
+      "role": "user",
+      "content": "what is the weather in Toronto",
+      "id": "12bbe24b-cd27-476c-a6e7-4de72325711a",
+      "createdAt": "2025-04-24T04:30:02.382Z"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_FeynLHQ5sLbm3nqwZ5l8o9HS",
+          "type": "function",
+          "function": {
+            "name": "get_weather",
+            "arguments": "{\"reasoning\":\"User requested the current weather for Toronto.\"}"
+          }
+        }
+      ],
+      "refusal": null,
+      "annotations": [],
+      "id": "a89156c9-6116-448e-b65c-d692357c2684",
+      "createdAt": "2025-04-24T04:30:03.309Z"
+    },
+    {
+      "role": "tool",
+      "content": "hot, 90deg",
+      "tool_call_id": "call_FeynLHQ5sLbm3nqwZ5l8o9HS",
+      "id": "a191476d-4236-4528-be11-8f55472d1a6d",
+      "createdAt": "2025-04-24T04:30:03.311Z"
+    },
+    {
+      "role": "assistant",
+      "content": "The current weather in Toronto is hot, with a temperature of 90 degrees.",
+      "refusal": null,
+      "annotations": [],
+      "id": "2cf1672f-b75e-4349-87b4-c990b00c2978",
+      "createdAt": "2025-04-24T04:30:03.992Z"
     }
   ]
 }
